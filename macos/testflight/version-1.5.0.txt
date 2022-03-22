@@ -1,0 +1,49 @@
+Mimir 1.5.0
+-----------
+
+The latest version for the macOS app is now ready for testing! This version also is the first to use the TestFlight app for mac, so please be sure to download it from the App Store on your mac running macOS Monterey to get started.
+
+This release coinsides with the first release for Mimir on iOS devices. Please install the 1.0 version of Mimir for iOS on your devices and enable iCloud to help test the syncing features. 
+
+
+Full Release Notes
+------------------
+This message only contains the abbreviated feature list, so you can read the 1.5.0 version release notes in their entirety here:
+
+https://mimirpodcasts.app/release-notes/macos-1.5.0.html
+
+
+What's new in 1.5
+-----------------
+The new macOS version of Mimir contains new features that have been in the works for almost a year including an all new custom audio engine, iCloud sync, and a new mini player!
+
+I'm very proud of all the work that has gone into this update, and hope you welcome all the new changes. I now need your help testing all these changes to make this the best release for Mimir yet!
+
+
+Feature Highlights
+------------------
+- Custom Audio Engine
+  - Much improved silence detection and playback performance when skipping silent audio
+  - Drastically reduces CPU usage from scanning files for silence. Now performed in real-time while using much less CPU power. 
+  - New Voice Boost toggle adds additional volume to voice audio frequencies
+  - New Sleep timer automatically pauses playback after a duration
+  - New playback speeds from 0.8x-2.5x with much better sounding audio quality. No more chipmunks! 🚫🐿
+  - Efficient data loading when streaming audio files from a remote webserver. Only loads ahead of what is playing.
+  
+- iCloud & Preferences Sync
+  - Sync your library, playlist, preferences, and episode playback progress with all your devices
+
+- New Mini Player
+  - Control playback at a glance with a beautiful new mini player
+  - Open from the new macOS menu bar icon or with a keystroke (Command + R)
+  - Detachable from the menu bar and can placed on any screen
+  - Configurable to sit on top of all other windows, can be changed in the Preferences window
+
+- Favorite & Archive Episodes
+  - Includes new filtering options in the podcast detail to find your favorites, or hide episodes you don't want to see.
+  
+- New Custom Library File
+  - To better support iCloud and help backing up and sharing of podcast libraries, a new `mimir` filetype has been added to store your podcast library.
+  - This filetype can be opened in the app and used to merge or replace the current podcast library.
+  - In the unlikely case of a database corruption, this file can also be used to restore your podcast library.
+
