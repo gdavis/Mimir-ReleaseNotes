@@ -2,7 +2,9 @@
 
 Welcome to the Mimir beta test! 💥🚀🎉
 
-The iOS version has been in development for almost a full year but is finally ready to get into your hands and play some podcasts. Mimir fully supports both iPhone and iPad, including split view on the iPad. The macOS app has also received a lot of new updates to work with iOS, so please check that out as well!
+The iOS app has been in development for almost a full year but is finally ready to get into your hands and play some podcasts. Mimir fully supports both iPhone and iPad, including split view on the iPad. 
+
+The macOS app is also receiving a big update along with the release of this iOS version, and can also be tested with TestFlight on the Mac when using macOS Monterey. If you can, please test both versions and enable iCloud to help test the syncing features of the app.
 
 Since this is a beta test, please be aware there are bugs to squash and in some very rare cases some major issues may occur such as data loss in your library. The iOS version adds iCloud sync to keep all your devices working together, and a new library file format was needed to support it. This new library system needs your help to work out all the kinks!
 
@@ -52,11 +54,11 @@ Please note that the new audio effects only work with audio files, so silence sk
 
 
 ## Known Issues
-These bugs are already in queue for fixing and will be address before release. If you encounter any of these, please know a fix is coming soon! If you can consistently reproduce these issues, please use the Bug Report feature in the Support menu to let me know how you made it happen.
+These bugs are already in queue for fixing and will be addressed before release. If you encounter any of these, please know a fix is coming soon! If you can consistently reproduce these issues, please use the Bug Report feature in the Support menu to let me know how you made it happen.
 
 - Skipping forward in a episode that has not yet been downloaded can rarely fail and skip to the next track.
-- Some episodes can fail to complete playback when playing to the end of the file and not automatically advance to the next track. Workaround the issue by manually tapping the next track button.
-- Some episodes with very long titles, or when using large dynamic type, can cause the UI to be cramped and cut off certain text elements.
+- Some episodes can fail to complete playback when reaching the end of the file and not automatically advance to the next track. Workaround the issue by manually tapping the next track button.
+- Some episodes with very long titles, or when using large dynamic type, can cause the UI to be cramped and cut off certain UI elements.
 - When using Bluetooth player, such as car audio, sometimes an episode can show an incorrect duration. Seeking in this state can fail and cause the player to play the next episode.
 - When syncing with other devices, sometimes data from the local device will overwrite the iCloud data.
 
