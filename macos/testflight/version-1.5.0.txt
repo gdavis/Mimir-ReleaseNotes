@@ -1,5 +1,5 @@
-Mimir 1.5.0
------------
+Mimir 1.5.0 Beta
+----------------
 
 The latest version for the macOS app is now ready for testing! This version also is the first to use the TestFlight app for mac, so please be sure to download it from the App Store on your mac running macOS Monterey to get started.
 
