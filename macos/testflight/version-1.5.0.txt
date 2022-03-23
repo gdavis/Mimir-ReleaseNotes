@@ -27,7 +27,7 @@ Feature Highlights
   - Drastically reduces CPU usage from scanning files for silence. Now performed in real-time while using much less CPU power. 
   - New Voice Boost toggle adds additional volume to voice audio frequencies
   - New Sleep timer automatically pauses playback after a duration
-  - New playback speeds from 0.8x-2.5x with much better sounding audio quality. No more chipmunks! 🚫🐿
+  - New playback speeds from 0.8x-2.5x with much better sounding audio quality. No more chipmunks!
   - Efficient data loading when streaming audio files from a remote webserver. Only loads ahead of what is playing.
   
 - iCloud & Preferences Sync
@@ -47,3 +47,12 @@ Feature Highlights
   - This filetype can be opened in the app and used to merge or replace the current podcast library.
   - In the unlikely case of a database corruption, this file can also be used to restore your podcast library.
 
+Known Issues
+------------
+These bugs are already in queue for fixing and will be addressed before release. If you encounter any of these, please know a fix is coming soon! If you can consistently reproduce these issues, please use the Bug Report feature in the Support menu to let me know how you made it happen.
+
+- Skipping forward in a episode that has not yet been downloaded can rarely fail and skip to the next track.
+- Some episodes can fail to complete playback when reaching the end of the file and not automatically advance to the next track. Workaround the issue by manually tapping the next track button.
+- Some episodes with very long titles, or when using large dynamic type, can cause the UI to be cramped and cut off certain UI elements.
+- When using Bluetooth player, such as car audio, sometimes an episode can show an incorrect duration. Seeking in this state can fail and cause the player to play the next episode.
+- When syncing with other devices, sometimes data from the local device will overwrite the iCloud data.
