@@ -6,6 +6,21 @@ The iOS app has been in development for almost a full year but is finally ready 
 
 The macOS app is also receiving a big update along with the release of this iOS version, and can also be tested with the TestFlight app when using macOS Monterey. If you can, please test both versions and enable iCloud to help test the syncing features.
 
+Getting Started
+---------------
+Use the Discover tab to search and browse for podcasts you are interested in. You can then group them in the library to organize your library.
+
+Later in the beta, I'll be adding functionality to import podcasts directly from the Apple Podcasts app if you are using it. Otherwise, Mimir currently supports importing podcast library in OPML format, which most popular podcasting apps support. Import by saving an OPML file to the Files app and choosing the "Open in Mimir" option.
+
+
+Providing Feedback
+------------------
+There are several ways to submit your feedback for Mimir. The Testflight app has a built-in button for reporting feedback, and the app has built-in actions that will let you send an email, submit a bug, and send feedback. All bug reports and feature requests are being compiled in Github, which you can go to directly here: https://github.com/gdavis/Mimir-Feedback
+
+From the app, you can use the Bug Report form for any issues you may encounter. This is found under 'Settings > Support > Report Bug'. Please be as descriptive as you can when adding a bug report to help me find and fix issues!
+
+You can also send me an email using 'Settings > Support > Send Feedback' from within the app. You can also email me directly at support@mimirpodcasts.app
+
 
 Full Release Notes
 ------------------
@@ -32,17 +47,6 @@ Tips and Tricks
 - Swipe left or right on podcast or episode cells for quick actions.
 - Tap and hold to rearrange the up next episode playlist.
 - Use the podcast priority setting to have episodes from your favorite podcasts appear more often in the Continuous Playback list.
-
-
-Testing Mimir
--------------
-While testing, please use the Bug Report form for any issues you may encounter. This is found under 'Settings > Support > Report Bug'. Please be as descriptive as you can when adding a bug report to help me find and fix issues!
-
-You can also send an email using 'Settings > Support > Send Feedback' option to send feature requests, give feedback, or attach screenshots or video that may help with bug reports. You can also email me directly at support@mimirpodcasts.app  
-
-Mimir currently supports importing podcast library in OPML format, which most popular podcasting apps support. Import by saving an OPML file to the Files app and choosing the "Open in Mimir" option. 
-
-The beta is planned to hopefully only take a month or so before Mimir is ready to launch, but could take longer if any major issues are found. Please take the time to help get the app ready by submitting feedback and bug reports. Mimir is a one-developer project, so all the help I can get in testing goes a long way!
 
 
 Coming Later in Beta
