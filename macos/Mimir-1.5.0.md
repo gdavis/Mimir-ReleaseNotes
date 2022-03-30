@@ -73,3 +73,5 @@ Thank you for your suggestions and help improving the app!
 - Fixed issues showing the incorrect state for the player play button
 - Fixed a crash that could occur in Continuous Playback when an episode's playback status has not yet been created
 - Fixed issue with Continuous Playback list not showing enough episodes to fill the set limit when podcast episode limits are applied
+- Fixed an issue where the download icon for podcast episodes would enter an error state when cancelling a download
+- Fixed an issue where an error alert would display when cancelling a download
