@@ -51,6 +51,7 @@ Thank you for your suggestions and help improving the app!
 - Added functionality to always open the main app window when clicking the dock menu icon
 - Added context menu options to the podcast detail to favorite and archive episodes
 - Added a download button to episodes in the Now Playing sidebar
+- Added a close button for the upgrade banner in the library sidebar
 
 - Updated episodes to be marked as played when initially adding a new podcast to the library. Episodes added to the feed after the inital library import will be marked as new.
 - Updated UI for player controls
@@ -75,3 +76,6 @@ Thank you for your suggestions and help improving the app!
 - Fixed issue with Continuous Playback list not showing enough episodes to fill the set limit when podcast episode limits are applied
 - Fixed an issue where the download icon for podcast episodes would enter an error state when cancelling a download
 - Fixed an issue where an error alert would display when cancelling a download
+- Fixed the recommendations view from refreshing too often and performing a flash when reloading content
+- Fixed an issue with the recommendations view resetting the scroll position to the top when entering and leaving the view
+- Fixed an issue where the highlight border stops appearing in the recommendations view
