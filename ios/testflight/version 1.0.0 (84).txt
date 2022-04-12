@@ -1,0 +1,21 @@
+Mimir iOS 1.0.0 (84)
+--------------------
+- Hotfix for a crash when locking the phone on episode detail views
+
+Mimir iOS 1.0.0 (83)
+--------------------
+Known Issues:
+- Episode playback status can revert to an older state if an iCloud connected device saves changes to the synchronized iCloud document before more recent changes are downloaded. Currently my high priority bug for next release. (#92)
+
+Changes:
+- Added support to import libraries from Apple Podcasts
+- Added buttons to the empty library view to import a library or go to discover section
+- Updated default user settings so silence skip, skip sounds, and voice boost are disabled by default
+- Added animation to fade in images when they are loaded
+- Fixed an issue caching images between app launches
+- Fixed where cached images were not being set correctly, causing an extra network load
+- Fixed issue updating library layout when deleting a podcast nested within groups
+- Fixed a crash that occurred when changing Bluetooth devices (#97)
+- Fixed an issue with extra CPU usage on the Discover view (#91)
+- Fixed a layout issue in the Episodes tab when there are no episodes in the top section
+- Fixed an issue seeking the player to the correct starting position on startup

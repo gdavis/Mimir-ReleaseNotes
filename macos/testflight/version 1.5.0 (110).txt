@@ -1,0 +1,23 @@
+Mimir macOS 1.5.0 (110)
+-----------------------
+Known Issues:
+- Episode playback status can revert to an older state if an iCloud connected device saves changes to the synchronized iCloud document before more recent changes are downloaded. Currently my high priority bug for next release. (#92)
+
+Changes:
+- Added a gear button to the mini player with a context menu that has the following actions:
+  - Keep the mini player always on top
+	- Restore the main window
+	- Open Preferences
+	- Quit Mimir
+- Added support to import libraries from Apple Podcasts
+- Added animation to fade in images when they are loaded
+- Updated Onboarding and application menu items to include importing from Apple Podcasts
+- Updated the mini player to fade in/out the close button with the overlay controls
+- Improved performance of the podcast detail view when resizing the window
+- Fixed the animation of the preferences window when changing tabs
+- Fixed an issue caching images between app launches
+- Fixed where cached images were not being set correctly, causing an extra network load
+- Fixed a crash that occurred when changing Bluetooth devices (#97)
+- Fixed issue with small podcast images not sizing correctly
+- Fixed an issue seeking the player to the correct starting position on startup
+- Fixed issue with resizing content in the now playing list when the download button appeared on hover
