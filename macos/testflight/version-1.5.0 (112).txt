@@ -1,5 +1,5 @@
-Mimir for iOS – 1.0.0 (85)
---------------------------
+Mimir for macOS – 1.5.0 (112)
+-----------------------------
 This update completely reworks the iCloud sync system in the app. There were some serious issues with the previous approach such as:
 
 - The podcasts library could sometimes be blank (https://github.com/gdavis/Mimir-Feedback/issues/98)
@@ -7,9 +7,9 @@ This update completely reworks the iCloud sync system in the app. There were som
 
 The new iCloud sync system uses a totally new approach and solves these serious issues that were plaguing the previous builds. This is also more performant and sync updates with other devices will be much faster.
 
-Please give this new version a test on all your devices and let me know how it works for you.
+Please give this new version a test on all your devices and let me know how it works for you!
 
-Thank you for your patience with this update since this was a big one for me!
+Thank you for your patience with this update since this was a big one for me.
 
 If you have feedback or bugs please let me know here: https://github.com/gdavis/Mimir-Feedback
 
