@@ -1,0 +1,4 @@
+Mimir for macOS – 1.5.0 (113)
+-----------------------------
+
+- Fixes an issue where the app could lockup when disabling iCloud sync

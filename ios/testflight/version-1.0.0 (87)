@@ -1,0 +1,4 @@
+Mimir for iOS – 1.0.0 (87)
+--------------------------
+
+- Fixes an issue where the app could lockup when disabling iCloud sync
