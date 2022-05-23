@@ -1,0 +1,13 @@
+Mimir for macOS – 1.5.0 (114)
+-----------------------------
+- Added context menu actions to move podcasts or groups to the top level when in a parent group
+- Added a playback speed label to show the current speed in the main player and menu bar player views
+- Fixed layout issues with episode cells in the Now Playing sidebar when collapsed
+
+Fixes for both iOS and macOS:
+- Updated the Continuous Playback "Highest Priority" sorting logic to respect the sort option for each podcast. This means high priority podcasts that are set to play from "oldest to newest" will correctly show older episodes first when showing episodes in the playlist.
+- Updated logic for automatically marking an episode as "played" when it has reached the end of the file. If less than 5% of the file remains to be played, or less than 30 seconds, the episode will be marked as played.
+- Fixed some issues with the initial "played" value for Episodes in the library. Users who have already synced their library with iCloud may see some episodes appear in the incorrect played state, but will resolve after setting episodes back to their proper played state. Sorry about that, but the logic will be much more consistent for tracking played episodes with this update.
+- Fixed issue with newly added podcast episodes not appearing in the Continuous Playback list
+- Fixed high CPU usage that could occur updating the Continuous Playback list while listening to an episode.
+- Fix crash that could occur when deleting objects with iCloud enabled
