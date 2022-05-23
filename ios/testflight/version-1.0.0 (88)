@@ -12,4 +12,4 @@ Fixes for both iOS and macOS:
 - Fixed some issues with the initial "played" value for Episodes in the library. Users who have already synced their library with iCloud may see some episodes appear in the incorrect played state, but will resolve after setting episodes back to their proper played state. Sorry about that, but the logic will be much more consistent for tracking played episodes with this update.
 - Fixed issue with newly added podcast episodes not appearing in the Continuous Playback list
 - Fixed high CPU usage that could occur updating the Continuous Playback list while listening to an episode.
-- Fix crash that could occur when deleting objects with iCloud enabled
+- Fixed a crash that could occur when deleting objects with iCloud enabled
