@@ -1,7 +1,7 @@
 # New Audio Engine + iOS App Release
 *Release 1.5.0 – Spring 2022*
 
-Version 1.5.0 comes with the biggest set of new features for Mimir to date! Launching alongside the new iOS app, the macOS app has been updated with new features that have been in the works for many months. This includes a brand new audio processing engine that greatly improves silence skip, better audio quality at faster or slower playback speeds, voice boost enhancements, and a new sleep timer. iCloud sync has also made a return to the app to keep your desktop in sync with all your iOS devices logged into the same account.
+Version 1.5.0 comes with the biggest set of new features for Mimir to date! Launching alongside the new iOS app, the macOS app has been updated with new features that have been in the works for many months. This includes a brand new audio processing engine that greatly improves silence skip, better audio quality at faster or slower playback speeds, voice boost enhancements, and a new sleep timer. iCloud sync has also been added to the app to keep your desktop in sync with all your iOS devices logged into the same account.
 
 Also included is the often requested mini player that can be opened from the macOS menu bar and is configurable to always stay on top of other windows for quick access to the playback controls. I've also been able to fit in improvements such as being able to favorite or archive episodes, UI additions for more easily downloading episodes, and a slew of other improves and bug fixes. 
 
@@ -38,7 +38,11 @@ Thank you for your suggestions and help improving the app!
 
 
 ## Changes & Fixes
+- Added support to import libraries from Apple Podcasts
+- Added animation to fade in images when they are loaded
+- Added context menu actions to move podcasts or groups to the top level when in a parent group
 - Added new error alerts that display when the application encounters problems
+- Added new option to disable window blur effects that can improve overall window performance
 - Added new keyboard shortcuts to show different application windows
 - Added Silence Skip sound slider to control sound volume in the Effects Preferences tab
 - Added Voice Boost switch and volume slider in the Effects Preferences tab
@@ -53,6 +57,8 @@ Thank you for your suggestions and help improving the app!
 - Added a download button to episodes in the Now Playing sidebar
 - Added a close button for the upgrade banner in the library sidebar
 
+- Improved performance of the podcast detail view when resizing the window
+- Updated Onboarding and application menu items to include importing from Apple Podcasts
 - Updated episodes to be marked as played when initially adding a new podcast to the library. Episodes added to the feed after the inital library import will be marked as new.
 - Updated UI for player controls
 - Updated icons and layout for the Preferences window
@@ -63,6 +69,12 @@ Thank you for your suggestions and help improving the app!
 - Updated the import action to support new library filetype
 - Updated the app store primary category to "News" and secondary category to "Entertainment"
 
+- Fixed the animation of the preferences window when changing tabs
+- Fixed an issue caching images between app launches
+- Fixed where cached images were not being set correctly, causing an extra network load
+- Fixed issue with small podcast images not sizing correctly
+- Fixed an issue seeking the player to the correct starting position on startup
+- Fixed a crash that occurred when changing Bluetooth devices
 - Fixed visual issues when scroll bars are always visible that would make the highlight outlines render incorrectly in the Now Playing sidebar
 - Fixed issues with sandbox permissions when saving podcasts to custom directories
 - Fixed issues updating Control Center with episode information
