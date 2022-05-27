@@ -1,0 +1,16 @@
+Mimir for macOS – 1.5.0 (115)
+-----------------------------
+Please let me know if you run into any issues with audio playback. This updates fixes a bunch of the known issues, but if you encounter anything unusual please leave feedback with the following: podcast, episode, what speaker device you were using (car audio, airpods, etc.), and any steps to reproduce the bug (if you can).
+
+Thanks for helping test!
+Grant
+
+Changes:
+- Added new option to disable window blur effects that can improve overall window performance
+- Improved performance importing large database records from iCloud
+- Fixed the "out of range" error that could popup when starting playback of an episode loading from a remote server that performs several redirects
+- Fixed an issue with the current time for an episode showing the incorrect time when it has to buffer data
+- Fixed an issue with the progress bar jumping back to the start when seeking
+- Fixed a crash that could occur when updating episode playback status
+- Fixed an issue updating unplayed episode counts
+- Fixed an issue with flashing podcast images in the library sidebar when refreshing podcasts
