@@ -1,0 +1,35 @@
+Mimir for iOS – 1.0.0 (90)
+--------------------------
+In-App Purchases are now available! As a TestFlight beta tester, you will NOT be charged real money when making purchases within the app. Please try out the purchase system and let me know what you think of the pricing and feature offerings!
+
+Mimir now has three tiers of access: free, pro and premium. The free plan gives you access to all the standard library features such as groups, password-protected RSS feeds, and standard playback options. Ads will display in the Discover section to help pay for the 3rd party services that provide curated lists, recommendations, and search features.
+
+Mimir Pro is a one-time purchase that will unlock the audio enhancements, app customization features, and continuous playback for the iOS app. Mimir Premium is the subscription tier that will unlock all app features and remove banner ads from the Discover section of the app and is available in a monthly or yearly plan. Premium also unlocks all features for both iOS and macOS apps, while Pro will just unlock features for the platform it is purchased on.
+
+This update also fixes the main nagging crashing issues from the last update, and fixes a lot of other minor UI issues.
+
+I hope you like it, and please let me know how your experience with Mimir is going!
+
+Grant
+
+
+Changes:
+- Added a new purchase view for the different tiers of the app
+- Added banner ads that display in the Discover section view and on podcast detail preview pages
+- Added note in Settings for long-pressing the navigation bar to quickly change light/dark themes
+- Added placeholder text for the episode detail view when the episode does not have a description
+- Added icons to show iCloud sync activity in the Sync Settings view
+- Updated swipe actions to show a text label
+- Updated the background for swipe actions in podcast and episode cells to match the selected color scheme
+- Updated fonts used in the app to be more consistent and better match the macOS app
+- Updated spacing and font sizes all across the app
+- Updated swipe actions to change to better match the state of the cell. e.g. "Mark Played" for episode swipe actions will change to "Mark Unplayed" when the episode is already played
+- Updated the navigation bar icons to correct use the current tint color
+- Updated swipe actions to use a consistent engage distance
+- Improved performance of the app when syncing with iCloud and updating the UI during playback
+- Fixed a common crash occuring when playing episodes
+- Fixed an issue where the playback progress of an episode would revert to an older value when syncing with iCloud
+- Fixed layout issues on podcast and episode detail views that would clip text labels
+- Fixed issue where the "Mark Other" episode menu would appear in the episode view, which didn't make ense for the context
+- Fixed issue where an error alert would appear when trying to start a download for an episode that already had a download in progress
+- Fixed layout issue where Curated List cells could cramp and cut off text
