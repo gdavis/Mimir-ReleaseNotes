@@ -2,7 +2,7 @@ Mimir for macOS – 1.5.0 (118)
 -----------------------------
 This update for Mac focuses on performance improvements and bug fixes. The app is nearly a release-ready state, and I'd love to hear your overall thoughts on both the macOS and iOS apps.
 
-Do you like it? Love it? Hate it? Wish it had X feature? Think it is ready for release? Please tell me by leaving Beta feedback or emailing me at grant@mimirpodcasts.app
+Do you like it? Love it? Hate it? Wish it had X feature? Think it is ready for release? Please tell me by using "Sending Beta Feedback" or emailing me at grant@mimirpodcasts.app
 
 Thank you as always for helping out in the beta test!
 
