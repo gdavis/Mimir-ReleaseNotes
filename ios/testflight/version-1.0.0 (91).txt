@@ -2,7 +2,7 @@ Mimir for iOS – 1.0.0 (91)
 --------------------------
 This update focuses on fixing sync issues and adding some polish to the app. The app is nearly a release-ready state, and I'd love to hear your overall thoughts on the iOS app.
 
-Do you like it? Love it? Hate it? Wish it had X feature? Think it is ready for release? Please tell me by leaving Beta feedback or emailing me at grant@mimirpodcasts.app
+Do you like it? Love it? Hate it? Wish it had X feature? Think it is ready for release? Please tell me by leaving Sending Beta feedback or emailing me at grant@mimirpodcasts.app
 
 Thank you as always for helping out in the beta test!
 
@@ -23,8 +23,8 @@ Changes:
 - Fixed issue where placeholder image colors would not match the selected theme
 - Fixed text label truncation that could occur when selecting long group or podcast names in Continuous Playback
 - Fixed a crash that could occur when updating an episode's playback state
-- Fixed an issue where a <?> icon would show for some recommended categories
+- Fixed an issue where an ? icon would show for some recommended categories
 - Fixed a missing logo for the Twitter icon in the About view
-- Fixed an issue importing certain podcast feeds that have items that do not conform to RSS specificiations
+- Fixed an issue importing certain podcast feeds that have items that do not conform to RSS specifications
 - Fixed some potential memory leaks
 - Fixed an issue sizing the animated "skeleton" views in discover for iPad
