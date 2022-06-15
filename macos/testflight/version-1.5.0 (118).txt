@@ -1,0 +1,20 @@
+Mimir for macOS – 1.5.0 (118)
+-----------------------------
+This update for Mac focuses on performance improvements and bug fixes. The app is nearly a release-ready state, and I'd love to hear your overall thoughts on both the macOS and iOS apps.
+
+Do you like it? Love it? Hate it? Wish it had X feature? Think it is ready for release? Please tell me by leaving Beta feedback or emailing me at grant@mimirpodcasts.app
+
+Thank you as always for helping out in the beta test!
+
+Grant
+
+
+Changes:
+- Improve performance when scrolling episodes in the podcast detail
+- Improved iCloud sync logic for using the correct episode status when a device and the cloud have the same records
+- Improved error alerts when handling network errors
+- Fixed some potential memory leaks
+- Fixed a crash that could occur when updating an episode's playback state
+- Fixed an issue where the title/author labels could be compressed by long descriptions in the "Add Feed" view
+- Fixed an issue importing certain podcast feeds that have items that do not conform to RSS specificiations
+- Fixed an error alert that would appear saying a directory could not be deleted because it did not exist

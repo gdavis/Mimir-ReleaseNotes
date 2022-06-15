@@ -1,0 +1,30 @@
+Mimir for iOS – 1.0.0 (91)
+--------------------------
+This update focuses on fixing sync issues and adding some polish to the app. The app is nearly a release-ready state, and I'd love to hear your overall thoughts on the iOS app.
+
+Do you like it? Love it? Hate it? Wish it had X feature? Think it is ready for release? Please tell me by leaving Beta feedback or emailing me at grant@mimirpodcasts.app
+
+Thank you as always for helping out in the beta test!
+
+Grant
+
+
+Changes:
+- Added a count label to the mini player to show how many episodes are in queue. Also animates when changed!
+- Added a new play button for podcast episodes that shows playback progress and indicators for new, played, favorite, and archived status
+- Added loading and error indicators to the podcast preview pages
+- Improved iCloud sync logic for using the correct episode status when a device and the cloud have the same records
+- Improved error handling for iCloud
+- Improved the performance when updating the Discover section with new content
+- Updated placeholder images to use better resolutions for different screen sizes
+- Updated the favorite icon to use a heart to differentiate from the star icon used for "new" episodes
+- Fixed several cases where cells would size incorrectly and cut off text
+- Fixed an issue where the "Play Next" swipe and context menu actions would place the episode at the bottom of Up Next
+- Fixed issue where placeholder image colors would not match the selected theme
+- Fixed text label truncation that could occur when selecting long group or podcast names in Continuous Playback
+- Fixed a crash that could occur when updating an episode's playback state
+- Fixed an issue where a <?> icon would show for some recommended categories
+- Fixed a missing logo for the Twitter icon in the About view
+- Fixed an issue importing certain podcast feeds that have items that do not conform to RSS specificiations
+- Fixed some potential memory leaks
+- Fixed an issue sizing the animated "skeleton" views in discover for iPad
