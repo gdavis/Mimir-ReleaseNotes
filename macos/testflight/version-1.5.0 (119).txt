@@ -1,0 +1,17 @@
+Mimir for macOS – 1.5.0 (119)
+-----------------------------
+This update includes fixes for iCloud sync, updating episode played states, and better performance.
+
+Please focus on iCloud sync and episode played states updating correctly for this update.
+
+Thanks for being part of the beta!
+
+
+Changes:
+- Fixed an issue where the Continuous Playback logic for hours could incorrectly use a podcast's episode limit instead of correctly calculating by duration. (#149)
+- Fixed issue with episodes not being marked played when listening to over 50% of the episode. An episode's played state is now updated when it is no longer in the episode playlist. (#137, #123)
+- Fixed import performance issues when importing a very large set of data. Updated with a much more efficient import process.
+- Fixed an issue where only a partial set of data could be exported to the cloud when performing large updates. e.g. when marking a podcast as played, some of the changes would not be saved to the cloud if the dataset was over 400 records.
+- Fixed issues seeking to the correct position on other devices when updating from the cloud
+- Fixed an issue with the player skipping backward as much as 15 seconds when transitioning the player from loading from a web server to a locally downloaded file. Transitions should be much more accurate to where you left off. (#144)
+- Fixed various minor memory leaks
