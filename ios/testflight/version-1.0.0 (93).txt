@@ -10,6 +10,7 @@ Thanks for being part of the beta!
 Changes:
 - Added progress indicators for library and discover searches (#57)
 - Improved performance when scrolling and updating views during playback and when receiving cloud updates. (#147)
+- Improved tap size of the "…" more button in the Playlist
 - Fixed an issue where the Continuous Playback logic for hours could incorrectly use a podcast's episode limit instead of correctly calculating by duration. (#149)
 - Fixed issue with episodes not being marked played when listening to over 50% of the episode. An episode's played state is now updated when it is no longer in the episode playlist. (#137, #123)
 - Fixed import performance issues when importing a very large set of data. Updated with a much more efficient import process.
