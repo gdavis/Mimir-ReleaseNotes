@@ -1,0 +1,19 @@
+Mimir for iOS – 1.0.0 (93)
+--------------------------
+This update includes fixes for iCloud sync, updating episode played states, and better performance.
+
+Please focusing on testing iCloud sync issues this release. Things should be much more stable now, but you may need to reset your previous episode states by using the "mark as" actions, or reset all states from the library settings menu.
+
+Thanks for being part of the beta!
+
+
+Changes:
+- Added progress indicators for library and discover searches (#57)
+- Improved performance when scrolling and updating views during playback and when receiving cloud updates. (#147)
+- Fixed an issue where the Continuous Playback logic for hours could incorrectly use a podcast's episode limit instead of correctly calculating by duration. (#149)
+- Fixed issue with episodes not being marked played when listening to over 50% of the episode. An episode's played state is now updated when it is no longer in the episode playlist. (#137, #123)
+- Fixed import performance issues when importing a very large set of data. Updated with a much more efficient import process.
+- Fixed an issue where only a partial set of data could be exported to the cloud when performing large updates. e.g. when marking a podcast as played, some of the changes would not be saved to the cloud if the dataset was over 400 records.
+- Fixed issues seeking to the correct position on other devices when updating from the cloud
+- Fixed an issue with the player skipping backward as much as 15 seconds when transitioning the player from loading from a web server to a locally downloaded file. Transitions should be much more accurate to where you left off. (#144)
+- Fixed various minor memory leaks
