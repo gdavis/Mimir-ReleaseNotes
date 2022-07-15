@@ -1,0 +1,10 @@
+Mimir for macOS – 1.5.0 (121)
+-----------------------------
+This is a small update for macOS that fixes a pretty serious UI issue that could occur. Also includes a fix to showing the correct episodes in the Top Episodes section.
+
+Known Issues:
+- The audio player can sometimes get hung at the end of an episode and not advance. Workaround: press the next button from now playing or start playing another episode
+
+Changes:
+- Fixed issue where selecting many episodes and right clicking for a context menu could lockup the UI (#155)
+- Fixed issue with new episodes not appearing in Top Episodes (#146)

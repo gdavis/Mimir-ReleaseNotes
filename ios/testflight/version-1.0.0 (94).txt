@@ -1,0 +1,26 @@
+Mimir for iOS – 1.0.0 (94)
+--------------------------
+Hi testers! This update has a lot of fixes for interface issues and some fixes for importing libraries. There are a few audio issues that still need to be ironed out, and a final set of color schemes added, but the app is near official release!
+
+Please let me know how your app experience has been and if you have any issues.
+
+Grant
+
+
+Known Issues:
+- The audio player can sometimes get hung at the end of an episode and not advance. Workaround: press the next button from now playing or start playing another episode
+
+Changes:
+- Added support for importing older Mimir (plib) library files
+- Added confirmation alerts when importing library files
+- Updated button layout for episode cells. The "more" (…) button is much more prominent and consistently placed in all views (#152)
+- Updated the big round buttons in detail views to use the current tint color
+- Updated the podcast detail add feed button to bring the user the the podcast detail of the added podcast when tapped after it has been added
+- Fixed layout issues when using Dynamic Type. The UI in general now works much better with large fonts
+- Fixed issue resetting the background gradient in the Now Playing view when nothing is playing
+- Fixed animation issues when expanding/contracting the podcast description (#18)
+- Fixed crash that could occur when trying to determine the filetype of an episode when the file returned from the server is an incomplete audio file (#161)
+- Fixed a misspelling in a context menu for marking episodes as played
+- Fixed issue with being able to play a preview episode from a podcast preview page in Discover, and also add it to the queue (#166)
+- Fixed issue with context menus not updating properly after performing a position change in Up Next (#165)
+- Fixed issue that could allow empty looking episode cells to appear in Up Next when adding episodes of an imported podcast from the discover preview page (#158)
