@@ -2,7 +2,7 @@ Mimir for iOS – 1.0.0 (95)
 --------------------------
 Today's update adds a (hopefully) final set of color schemes and custom silence skip sounds I'd love for you to try out.
 
-The color schemes are named after the 9 realms of Norse mythology and tries to use colors that might represent each realm. Let me know if you agree!
+The color schemes are named after the 9 realms of Norse mythology and tries to use colors that might represent each realm.
 
 New custom silence skip sounds allow you to change from the default "snip" sound that has been in the app. Let me know what you think of these, and if you have suggestions for others!
 

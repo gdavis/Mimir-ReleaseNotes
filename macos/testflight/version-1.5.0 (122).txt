@@ -1,10 +1,6 @@
 Mimir for macOS – 1.5.0 (122)
 -----------------------------
-Today's update adds new color schemes and custom silence skip sounds I'd love for you to try out.
-
-The color schemes are named after the 9 realms of Norse mythology and tries to use colors that might represent each realm.
-
-New custom silence skip sounds allow you to change from the default "snip" sound that has been in the app. Let me know what you think of these, and if you have suggestions for others!
+Today's new custom silence skip sounds I'd love for you to try out, along with some fixes. From Preferences > Effects you to change from the default "snip" sound that has been in the app. Let me know what you think of these, and if you have suggestions for others!
 
 For the next update I'm trying to work out the final audio issues and the last changes before sending to the App Store. Thanks as always for helping test!
 
