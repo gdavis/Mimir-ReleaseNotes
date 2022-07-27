@@ -4,9 +4,10 @@ The biggest update for Mimir is near release! With this version Mimir is enterin
 
 Now is the time to get your last bits of feedback or bugs in before launch. I am still working on resolving some of the less common (but annoying) audio player bugs, but I have had trouble reproducing them in a test environment to fix them. I'll work on these bugs until they are fixed, but it might not come in until after the intial release at this stage.
 
-Thank you for all of our bug reports and suggestions during the beta! I'm very excited to be at this point and think we have put together a pretty nice podcast player.
+Thank you for all of your bug reports and suggestions during the beta! I'm very excited to be at this point and think we have put together a pretty nice podcast player.
 
 Grant
+
 
 Known Issues:
 - The audio player can sometimes get hung at the end of an episode and not advance. Workaround: press the next button from now playing or start playing another episode
