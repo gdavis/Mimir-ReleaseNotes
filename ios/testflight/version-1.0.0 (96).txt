@@ -1,0 +1,23 @@
+Mimir for iOS – 1.0.0 (96) - Release Candidate 1
+------------------------------------------------
+Mimir is near App Store release! With this version Mimir is entering the "Release Candidate" phase where each build could be used for the official release submission.
+
+Now is the time to get your last bits of feedback or bugs in before launch. I am still working on resolving some of the less common (but annoying) audio player bugs, but I have had trouble reproducing them in a test environment to fix them. I'll work on these bugs until they are fixed, but it might not come in until after the intial release at this stage.
+
+Thank you for all of our bug reports and suggestions during the beta! I'm very excited to be at this point and think we have put together a pretty nice podcast player.
+
+Grant
+
+
+Known Issues:
+- The audio player can sometimes get hung at the end of an episode and not advance. Workaround: press the next button from now playing or start playing another episode
+
+Changes:
+- Added a new onboarding "Welcome" screen to greet new users. This highlights some features of the app and walks through steps to get started.
+- Added some analytics for tracking user stats such as selected theme, color scheme, skip sound, etc. This data is not tied to you and only used so I can see how users are using the app.
+- Added a link to the About page for the macOS app that ask the user to if they want to send an email to with the link to download the macOS app from the Mac App Store or Setapp
+- Added a "audio effects disabled" button that displays when the app uses the standard legacy player for video or audio formats not supported by the custom audio player. The buttons or the disabled effects will be hidden when this is displayed. Tapping the button will display an alert explaining why the custom audio engine is not used. (#65)
+- Updated the launch screen with a final background gradient and some positioning tweaks
+- Updated the purchase page to support introductory subscription offers. Subscriptions are planned to now come with a 7-day free trial.
+- Fixed an issue where users would be prompted to allow notifications for the app. Notifications are planned for a later feature update.
+- Fixed an issue on some iPad screens where library podcast rows would have a half pixel showing on the trailing side.

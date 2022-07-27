@@ -1,0 +1,18 @@
+Mimir for macOS – 1.5.0 (123) – Release Candidate 1
+---------------------------------------------------
+The biggest update for Mimir is near release! With this version Mimir is entering the "Release Candidate" phase where each build could be used for the official release submission.
+
+Now is the time to get your last bits of feedback or bugs in before launch. I am still working on resolving some of the less common (but annoying) audio player bugs, but I have had trouble reproducing them in a test environment to fix them. I'll work on these bugs until they are fixed, but it might not come in until after the intial release at this stage.
+
+Thank you for all of our bug reports and suggestions during the beta! I'm very excited to be at this point and think we have put together a pretty nice podcast player.
+
+Grant
+
+Known Issues:
+- The audio player can sometimes get hung at the end of an episode and not advance. Workaround: press the next button from now playing or start playing another episode
+
+Changes:
+- Added a "audio effects disabled" button that displays when the app uses the standard legacy player for video or audio formats not supported by the custom audio player. The buttons or the disabled effects will be hidden when this is displayed. Clicking the button will display an alert explaining why the custom audio engine is not used. (#65)
+- Updated the purchase page to support introductory subscription offers. Subscriptions are planned to now come with a 7-day free trial.
+- Fixed a layout issue where the podcast detail view would not resize properly when collapsing/expanding the now playing sidebar (#174)
+- Fixed an issue where the video player controls background was being clipped (#176)
