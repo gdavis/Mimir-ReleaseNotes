@@ -13,9 +13,9 @@ Known Issues:
 - The audio player can sometimes get hung at the end of an episode and not advance. Workaround: press the next button from now playing or start playing another episode
 
 Changes:
-- Added a new onboarding "Welcome" screen to greet new users. This highlights some features of the app and walks through steps to get started.
+- Added a new onboarding "Welcome" screen to greet new users on first launch. This highlights some features of the app and walks through steps to get started. It can be opened again from the Settings page.
 - Added some analytics for tracking user stats such as selected theme, color scheme, skip sound, etc. This data is not tied to you and only used so I can see how users are using the app.
-- Added a link to the About page for the macOS app that ask the user to if they want to send an email to with the link to download the macOS app from the Mac App Store or Setapp
+- Added a link in the About page for the macOS app. Tapping this will ask the user to if they want to send an email with the link to download the macOS app from the Mac App Store or Setapp.
 - Added a "audio effects disabled" button that displays when the app uses the standard legacy player for video or audio formats not supported by the custom audio player. The buttons for the disabled effects will be hidden when this is displayed. Tapping the button will display an alert explaining why the custom audio engine is not used. (#65)
 - Updated the launch screen with a final background gradient and some positioning tweaks
 - Updated the purchase page to support introductory subscription offers. Subscriptions are planned to now come with a 7-day free trial.
