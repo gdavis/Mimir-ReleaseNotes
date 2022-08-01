@@ -1,0 +1,5 @@
+Mimir for iOS – 1.0.0 (97) - Release Candidate 2
+------------------------------------------------
+This update adds a fix that *should* resolve the issue with episodes getting stuck. It is a difficult issue to reproduce, so please let me know if you still encounter this bug.
+
+- Fixed the issue with episodes sometimes getting "stuck" when playing to the end (#106)
