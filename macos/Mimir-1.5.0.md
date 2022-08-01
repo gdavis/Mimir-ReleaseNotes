@@ -1,5 +1,5 @@
 # New Audio Engine + iOS App Release
-*Release 1.5.0 – Spring 2022*
+*Release 1.5.0 – Summer 2022*
 
 Version 1.5.0 comes with the biggest set of new features for Mimir to date! Launching alongside the new iOS app, the macOS app has been updated with new features that have been in the works for many months. This includes a brand new audio processing engine that greatly improves silence skip, better audio quality at faster or slower playback speeds, voice boost enhancements, and a new sleep timer. iCloud sync has also been added to the app to keep your desktop in sync with all your iOS devices logged into the same account.
 
@@ -32,8 +32,9 @@ Thank you for your suggestions and help improving the app!
   - Includes new filtering options in the podcast detail to find your favorites, or hide episodes you don't want to see.
   
 - New Custom Library File
-  - To better support iCloud and help backing up and sharing of podcast libraries, a new `mimir` filetype has been added to store your podcast library.
+  - To better support iCloud and help backing up and sharing of podcast libraries, a new `mimirlibrary` filetype has been added to store your podcast library.
   - This filetype can be opened in the app and used to merge or replace the current podcast library.
+  - Automatic backups of your library will save a `mimirlibrary` that can be used to restore the library in case of data loss.
   - In the unlikely case of a database corruption, this file can also be used to restore your podcast library.
 
 
@@ -45,6 +46,7 @@ Thank you for your suggestions and help improving the app!
 - Added new option to disable window blur effects that can improve overall window performance
 - Added new keyboard shortcuts to show different application windows
 - Added Silence Skip sound slider to control sound volume in the Effects Preferences tab
+- Added Silence Skip Sound selection option in the Effects Preferences tab
 - Added Voice Boost switch and volume slider in the Effects Preferences tab
 - Added new slider options for playback speeds in the Effects Preferences tab. Now you can crank it all the way up to 2.5x!
 - Added option to keep the video view on top of other windows in General Preferences tab
@@ -56,8 +58,14 @@ Thank you for your suggestions and help improving the app!
 - Added context menu options to the podcast detail to favorite and archive episodes
 - Added a download button to episodes in the Now Playing sidebar
 - Added a close button for the upgrade banner in the library sidebar
+- Added a "audio effects disabled" button that displays when the app uses the standard legacy player for video or audio formats not supported by the custom audio player. The buttons for the disabled effects will be hidden when this is displayed. Clicking the button will display an alert explaining why the custom audio engine is not used
+- Added a new button to remove the current playing item
+- Added a new button to the up next list to clear queued items
+- Added a new menu item and key command to clear up next queue
+- Added icons to show iCloud sync activity in the library row in the left sidebar
 
 - Improved performance of the podcast detail view when resizing the window
+- Improved error alerts when handling network errors
 - Updated Onboarding and application menu items to include importing from Apple Podcasts
 - Updated episodes to be marked as played when initially adding a new podcast to the library. Episodes added to the feed after the inital library import will be marked as new.
 - Updated UI for player controls
@@ -91,3 +99,6 @@ Thank you for your suggestions and help improving the app!
 - Fixed the recommendations view from refreshing too often and performing a flash when reloading content
 - Fixed an issue with the recommendations view resetting the scroll position to the top when entering and leaving the view
 - Fixed an issue where the highlight border stops appearing in the recommendations view
+- Fixed issue where selecting many episodes and right clicking for a context menu could lockup the UI
+- Fixed an issue where the Continuous Playback logic for hours could incorrectly use a podcast's episode limit instead of correctly calculating by duration
+- Fixed issue with episodes not being marked played when listening to over 50% of the episode. An episode's played state is now updated when it is no longer in the episode playlist.
