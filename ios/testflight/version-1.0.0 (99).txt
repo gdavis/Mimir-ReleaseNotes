@@ -1,0 +1,5 @@
+Mimir for iOS – 1.0.0 (99) - Release Candidate 3
+------------------------------------------------
+- Fixed an issue where the app could hang briefly when playing an episode
+- Fixed an issue where the player might not pause correctly when disconnecting headphones
+- Fixed an issue where the player state would be stuck in a "pause" state when interrupted by another audio source
