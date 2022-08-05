@@ -1,0 +1,7 @@
+Mimir for iOS – 1.0.1 (100)
+---------------------------
+The iOS launch version and macOS update are both now available on the App Store!
+
+Thank you everyone who helped out during the beta test. The launch went very smoothly and I have many of you to thank for reporting issues and requesting features.
+
+This update adds support for Setapp. If you have an existing desktop Setapp account, you can now unlock Mimir and all the premium features!
