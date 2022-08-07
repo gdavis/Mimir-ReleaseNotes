@@ -1,0 +1,4 @@
+Mimir for iOS – 1.0.1 (101)
+---------------------------
+- Fixes issue where audio would not resume at the end of a call
+- Fixes issue where the audio could resume when a call started

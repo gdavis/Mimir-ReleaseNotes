@@ -1,0 +1,5 @@
+Thank you for being a part of Mimir's App Store launch! I hope you are enjoying the app and its features. This first update fixes a couple annoying audio player issues around interruptions such as phone calls, and adds support for Setapp users.
+
+- Setapp users can now unlock premium features by linking to their account
+- Fixes issue where audio would not resume at the end of a call
+- Fixes issue where the audio could resume when a call started
