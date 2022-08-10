@@ -1,0 +1,3 @@
+Mimir for macOS – 1.5.1 (130)
+---------------------------------------------------
+- Hotfix to resolve issue loading the curated list feed
