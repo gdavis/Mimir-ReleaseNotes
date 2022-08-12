@@ -1,0 +1,4 @@
+This update improves support for Setapp integration:
+- Adds user feedback when unlocking premium features, or encountering issues
+- Updates the purchases view to reflect when features have been unlocked via Setapp
+- Fixes a text wrapping issues on the purchases view for iOS 14 users
