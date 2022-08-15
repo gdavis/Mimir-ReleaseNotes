@@ -1,0 +1,6 @@
+Mimir for iOS – 1.0.4 (104)
+---------------------------
+This small update is for fixing some uncommon but annoying issues with the audio player.
+
+- Fixed issue where the audio player could become unresponsive after changing audio output devices
+- Possible fix for an issue where an episode could become "stuck" in a loading state at the end of the file. Needs testing to confirm (#106)
