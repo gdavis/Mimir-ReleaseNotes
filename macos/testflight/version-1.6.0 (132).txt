@@ -1,5 +1,5 @@
 Mimir for macOS – 1.6.0 (132)
----------------------------------------------------
+-----------------------------
 Hello testers!
 
 I appreciate you all for bearing with me on the pace of updates and sending your feedback. I've had to take on some contract work so updates are slower than I'd like, but things are still moving along!
@@ -12,7 +12,8 @@ Grant
 
 ---------------
 
-## New Features
+New Features:
+
 Automatic Downloads
 - Added an option to podcast settings that, when enabled, will automatically download episode files when added to the feed
 - This setting will sync between devices when using iCloud
@@ -30,10 +31,10 @@ Local notifications improvements
 - Podcasts that are marked to show local notification will now display alerts for newly added episodes.
 - Added quick-actions to the notifications to play the episode now, next, later, or view the source podcast.
 
-## Bug Fixes
+Bug Fixes
 - Fixed an issue that kept downloaded files on disk longer than they should because they were not being properly marked as played.
 - Updated the Setapp SDK. This should fix issues some users were having activating the app from their Setapp account.
 
-# More to come!
-More bug fixes and small improvements are planned to be added to this version before it is release, but please focus on testing the new Downloads features for now. Thanks!
+More to come!
+- More bug fixes and small improvements are planned to be added to this version before it is release, but please focus on testing the new Downloads features for now. Thanks!
 
