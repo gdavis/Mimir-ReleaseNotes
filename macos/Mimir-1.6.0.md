@@ -19,6 +19,8 @@ Local notifications improvements
 - Podcasts that are marked to show local notification will now display alerts for newly added episodes.
 - Added quick-actions to the notifications to play the episode now, next, later, or view the source podcast.
 
+Podcast Setting Redesign
+- Updated the podcast settings with an improved layout and room for more options
 
 ## Bug Fixes
 - Fixed an issue that kept downloaded files on disk longer than they should because they were not being properly marked as played.
