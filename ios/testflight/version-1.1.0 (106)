@@ -1,22 +1,23 @@
-Mimir for iOS – 1.1.0 (105)
+Mimir for iOS – 1.1.0 (106)
 --------------------------
-This update brings a new major version of the custom audio player to the app that fixes many of the the existing issues with the player, including the notorious bug where episodes hang at the end of the episode!
+This update brings a major update to the custom audio player that fixes many of the the existing issues.
 
-To bring this update, the player has been drastically overhauled for better performance, state management, seeking, and error handling. Please thoroughly test the audio player and let me know how it works for you.
+The player has been drastically overhauled for better performance, state management, seeking, and error handling. Please thoroughly test the audio player and let me know how it works for you!
 
 Since this is a big rework, there may be new issues I have not yet discovered, by overall I believe you will have a much better player experience.
 
 Thank you for helping test and I hope you all had a great holiday!
 - Grant
---------------------------
 
-Changes:
+--------------------------
+Changelog
 
 Major custom audio player rework:
 - Fixed issue with the player hanging at the end of an episode
 - Fixed issues with seeking accuracy, especially with long episodes
 - Fixed a crash that could occur when reading data that caused a race condition
 - Fixed a memory leak that could occur when parsing audio data packets
+- Fixed issues where the episode could complete too early when skipping forward
 - Improved performance for handling play/pause/seek actions
 - Improved performance when scanning for silent audio
 - Improved time tracking when playing back long episodes
