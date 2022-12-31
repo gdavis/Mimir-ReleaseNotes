@@ -8,12 +8,8 @@ The updated player should be pretty stable now, but please send feedback if you 
 
 --------------------------
 Changelog
-- Updated the download logic so the player will no longer try to make partial requests for an audio file while another operation performs a separate download of the entire file, then switch the player to the downloaded file once complete. The player has been updated so it will now perform a single progressive download for the playing episode when the user settings permit it, and the file will be saved to the final location once it is finish. Previously the file download mechanisms for current playing item were separate, and this change should improve playback when loading episodes under poor network conditions.
+- Fixed an issue where a separate download could start when the audio player also downloads the same file. This fixes issues with studdering audio when loading a new episode on a poor network connection.
 - Fixed a crash that could occur from an arithmetic overflow
 - Fixed issues with audio resuming when making calls
 - Fixed issues with audio resuming when an interruption ends and the player was in a paused state
 - Fixed an issue where audio from the beginning of the file could be played when the player is rebuilt from an audio session interruption
-
-
-iOS only:
-- Improved command handling for bluetooth devices for the next/previous track commands. Double and triple pressing an AirPods Pro device for example will now seek forward/backward in the current episode.
