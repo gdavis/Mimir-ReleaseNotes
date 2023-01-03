@@ -1,7 +1,13 @@
-# Fall Update
-*Release 1.6.0 – December 2022*
+# New Year Update
+*Release 1.6.0 – January 2023*
 
 ## New Features
+Player Improvements
+- Reworked for a more stable experience
+- Improved the overall performance of the player
+- Fixed issues with seeking accuracy, especially with long episodes
+- Fixed the most common player bugs, including the notorious "stuck at end" of episode bug
+
 Automatic Downloads
 - Added an option to podcast settings that, when enabled, will automatically download episode files when added to the feed
 - This setting will sync between devices when using iCloud
@@ -22,7 +28,11 @@ Local notifications improvements
 Podcast Setting Redesign
 - Updated the podcast settings with an improved layout and room for more options
 
-## Bug Fixes
+## Bug Fixes 
 - Fixed an issue that kept downloaded files on disk longer than they should because they were not being properly marked as played.
-- Updated the Setapp SDK. This should fix issues some users were having activating the app from their Setapp account. 
-
+- Fixed a crash that could occur when reading data that caused a race condition
+- Fixed a memory leak that could occur when parsing audio data packets
+- Fixed issues where the episode could complete too early when skipping forward
+- Fixed a crash that could occur when updating the recommendations view
+- Fixed an issue where a separate download could start when the audio player also downloads the same file. This fixes issues with studdering audio when loading a new episode on a poor network connection.
+- Fixed an issue where audio from the beginning of the file could be played when the player is rebuilt from an audio session interruption
