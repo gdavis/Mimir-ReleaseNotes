@@ -1,0 +1,4 @@
+Mimir for macOS – 1.6.0 (138)
+-----------------------------
+- Fixes an issue that where the player could sometimes not immediately start when switching from a playing episode to a new one
+- Fixed an issue where pressing play in the player with nothing playing would only load the next episode, and not begin playabck
