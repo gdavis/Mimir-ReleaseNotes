@@ -1,23 +1,23 @@
 # New Year Update
 *Release 1.6.0 – January 2023*
+Happy New Year! Mimir is starting off 2023 with a big update that adds a new Downloads view and a reworked custom audio player that fixes many playback issues for a solid playback experience. Thank you for your support while I continue to update the app to make it a great podcast player. Expect to see many new updates coming this year!
 
 ## New Features
-Player Improvements
-- Reworked for a more stable experience
-- Improved the overall performance of the player
-- Fixed issues with seeking accuracy, especially with long episodes
-- Fixed the most common player bugs, including the notorious "stuck at end" of episode bug
+Audio Player 2.0
+- Internally reworked to be much more stable and accurate
+- Added an AirPlay menu to the main player controls
+- Improved controls for Bluetooth headsets (e.g. Airpods) with skipping forward/backward in an episode
+- Many bugs fixes and stability improvements
 
 Automatic Downloads
-- Added an option to podcast settings that, when enabled, will automatically download episode files when added to the feed
-- This setting will sync between devices when using iCloud
-
-Added a new Downloads view to the sidebar. From here you can see all files that have been downloaded and manage your downloads.
+- Enabled in Podcast Settings, Mimir will now download new episodes added to the feed for your selected podcasts
+- This setting syncs with other devices
+- New Downloads section added to the sidebar
 - View a summary of the number of files and total space used
 - View downloads organized by podcast
 - Search to quickly find downloaded episodes
 - Sort by most file size, number of files, or podcast title
-- Quickly remove individual files, all files for a podcast, or all downloads in the library.
+- Quickly remove individual files, all files for a podcast, or all downloads in the library
 - Full Drag & Drop support
 - Added ability to drag downloaded episodes outside of Mimir and into other applications
 
