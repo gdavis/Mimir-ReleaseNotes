@@ -1,5 +1,4 @@
-# Minor Fixes Update
-*Release 1.4.1 – May 2021*
+# Mimir for macOS – 1.4.1
 
 - Fixed an issue auto-updating subscribed podcasts
 - Fixed an issue where episodes added to "Up Next" or "Playing" would be removed from the podcast detail "Unplayed" list before it was completely played

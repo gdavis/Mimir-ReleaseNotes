@@ -1,4 +1,4 @@
-# November Minor Fixes
+# Mimir for macOS – 1.4.4
 
 This update attempts to fix some nagging issues related to high CPU usage that can lock up the application, permission issues with custom save locations, and some crash fixes for the most commonly reported crashes. While I have had a hard time reproducing the high CPU issues, I was able to get closer to finding where it occurs, and it seems to be related to audio processing when scanning for audio silence. I'm crossing my fingers this will resolve the issues for most users, but if you continue to have issues, please use the Contact Support menu item from the app and let me know!
 

@@ -1,5 +1,4 @@
-# New Audio Engine + iOS App Release
-*Release 1.5.0 – Summer 2022*
+# Mimir for macOS – 1.5.0
 
 Version 1.5.0 comes with the biggest set of new features for Mimir to date! Launching alongside the new iOS app, the macOS app has been updated with new features that have been in the works for many months. This includes a brand new audio processing engine that greatly improves silence skip, better audio quality at faster or slower playback speeds, voice boost enhancements, and a new sleep timer. iCloud sync has also been added to the app to keep your desktop in sync with all your iOS devices logged into the same account.
 
