@@ -1,5 +1,4 @@
-# Download Folder Fix, Take 2
-*Release 1.4.3 – August 2021*
+# Mimir for macOS – 1.4.3
 
 Last update took a stab and fixing a nagging permissions issue saving downloads to folders outside of the app's "sandbox", which would make an ugly red exclamation mark show up when trying to download files. This could occur after selecting a custom folder and then when restarting the app, it would "forget" it had permission to access that folder.  Last version's "fix" wasn't a full solution to resolve the problem, so this update takes another stab at resolving it, and this time I believe it is officially squashed! Thank you Mike R. for reporting the issue!
 

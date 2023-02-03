@@ -1,5 +1,4 @@
-# Spring Update 2
-*Release 1.4.0 – May 2021*
+# Mimir for macOS – 1.4.0
 
 This month Mimir gets a smaller update than the last, but includes some big, long-awaited features! Most notably, you can now add password-protected RSS feeds to the library! Add your premium podcast versions with ease, and your credentials are securely saved to the Keychain. There are also quite a few new quality of life improvements, and of course fixes to some nagging bugs. 
 
