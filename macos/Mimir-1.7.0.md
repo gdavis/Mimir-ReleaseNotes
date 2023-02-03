@@ -1,15 +1,10 @@
 # New Modes Update
 *Release 1.7.0 – February 2023*
 
-This update brings new modes to the Continuous Playback feature, playlist sidebar updates, and improves how often the app updates podcast feeds.
-
-I hope you enjoy the new changes!
-
--Grant 
+This update introduces Continuous Playback modes (Append, Shuffle, Legacy), Return to Queue feature for interrupted episodes, updated Playlist Sidebar UI with new buttons and settings, improved performance with bug fixes and changes to the audio player, and podcast feed updates.
 
 ## New Features:
-
-• Added Continuous Playback Modes
+• Added Continuous Playback Modes
 - Append Mode: An initial playlist is generated and suggested episodes are appeneded to the end of the Continuous Playback playlist. Pressing the refresh button will return the playlist to its original order.
 - Shuffle Mode: Episodes that would normally display in Continuous Playback are shuffled for a randomized playlist and new episodes are appended to the list. Pressing the refresh button will generate a new randomized list.
 - Legacy Mode: The classic sorting style. Episodes are sorted in a standard fashion, and when sorting by highest priority, episodes will always retain their position in the playlist based on their priority.
@@ -30,8 +25,11 @@ I hope you enjoy the new changes!
 ## Changes:
 - Added a new option to show or hide iCloud sync status in the library sidebar
 - Added a new 'gear' button to the player controls that opens the Preferences Playback tab
+- Added new "rating request" alerts that will gently ask users to write a review. Users will be prompted for a review after 3 app launches and asked again every 2 weeks if they choose not to. 
 - Improved logic around updating subscribed podcast feeds
 - Moved the podcast download directory to the Podcasts settings tab
 - Fixed border rounding issue on episode cells in sidebar
 - Fixed a crash that could occur when the audio player is interrupted by another audio source
 - Fixed some alignment and corner rounding issues in the playlist sidebar
+- Fixed an issue where the audio player could end episodes early if it received a `contentLength` that was smaller than the actual audio file
+- Updated audio player to use higher-priority queues
