@@ -1,5 +1,5 @@
-# New Year Update
-*Release 1.6.0 – January 2023*
+# Mimir for macOS – 1.6.0
+
 Happy New Year! Mimir is starting off 2023 with a big update that adds a new Downloads view and a reworked custom audio player that fixes many playback issues for a solid playback experience. Thank you for your support while I continue to update the app to make it a great podcast player. Expect to see many new updates coming this year!
 
 ## New Features

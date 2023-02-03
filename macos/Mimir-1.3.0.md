@@ -1,5 +1,4 @@
-# Spring Cleaning Update
-*Release 1.3.0 – April 2021*
+# Mimir for macOS – 1.3.0
 
 Happy Spring! With the turn of the season I've been working hard on cleaning up parts of the app that were not performing well, causing crashes, and adding some needed polish to many parts of the app. This is the biggest update for Mimir yet and brings some amazing performance improvements!
 
