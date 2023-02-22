@@ -1,0 +1,5 @@
+Mimir for macOS – 1.7.1
+-----------------------
+- Fixed a sync issue when importing playlist items on a device that is missing the episode because the feed is out of date
+- Fixed issue where private feeds could not load when the computer was locked
+- Fixed a rare crash that could occur when updating podcast feeds

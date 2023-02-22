@@ -1,0 +1,6 @@
+New in build 123
+----------------
+- Improved the loading performance when first opening the episodes tab for large libraries
+- Fixed a sync issue when importing playlist items on a device that is missing the episode because the feed is out of date
+- Fixed issue where private feeds could not load when the computer was locked
+- Fixed a rare crash that could occur when updating podcast feeds
