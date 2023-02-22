@@ -36,3 +36,4 @@ Settings
 
 Other changes in this release:
 - Fixed issue with error alerts stacking when multiple errors occur. New error alerts will only display when no other error alert is present.
+- Fixed a rare crash that could occur when scheduling updates
