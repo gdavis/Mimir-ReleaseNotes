@@ -1,5 +1,7 @@
 Mimir for macOS – 1.7.1
 -----------------------
+This minor update fixes some of the more common (and annoying!) bugs in the player and with iCloud sync. Thank you for your feedback to help me find and fix these bugs!
+
 - Fixed a sync issue when importing playlist items on a device that is missing the episode because the feed is out of date
 - Fixed an issue where private feeds could not load when the computer was locked
 - Fixed a rare crash that could occur when updating podcast feeds
