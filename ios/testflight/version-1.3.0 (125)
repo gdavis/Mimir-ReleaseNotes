@@ -1,0 +1,4 @@
+New in build 125
+----------------
+- Fixed a crash that could occur when launching the app from CarPlay, before the phone app was launched
+- Fixed a crash that could occur when displaying the activity HUD when performing import or export library actions
