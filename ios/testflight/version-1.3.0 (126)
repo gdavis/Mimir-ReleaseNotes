@@ -1,0 +1,3 @@
+New in build 126
+----------------
+- Fixed a crash that could occur when applying colors to the airplay button.
