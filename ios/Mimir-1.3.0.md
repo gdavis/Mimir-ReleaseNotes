@@ -32,6 +32,7 @@ The new CarPlay interface includes the following tabs and features:
 
 ## Other changes and fixes:
 - Improved the loading performance when first opening the episodes tab for large libraries
+- Fixed issue with in-app purchase buttons not working
 - Fixed issue with error alerts stacking when multiple errors occur. New error alerts will only display when no other error alert is present.
 - Fixed a rare crash that could occur when scheduling updates
 - Fixed a sync issue when importing playlist items on a device that is missing the episode because the feed is out of date

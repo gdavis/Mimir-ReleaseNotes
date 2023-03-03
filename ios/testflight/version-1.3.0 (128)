@@ -2,3 +2,4 @@ New in build 128
 ----------------
 - Improved caching of network requests
 - Fixed various issues with the audio player
+- Fixed issue with in-app purchase buttons not working
