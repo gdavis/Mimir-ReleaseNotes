@@ -1,0 +1,4 @@
+New in build 127
+----------------
+- Fixed issue seeking to the correct player position when changing to a new episode
+- Fixed issue with audio skipping backward when switching audio devices
