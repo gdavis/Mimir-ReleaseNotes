@@ -1,0 +1,7 @@
+New in build 153
+----------------
+This release addresses feedback from Apple to change the behavior of the close button. To comply with their guidelines, the following changes have been made:
+
+- Removed option for the main window close button to terminate the app from Preferences
+- Restored the default main window behavior to only close the window
+- Added fuctionality to hold the option (⌥) key when clicking the main window close button to terminate the app
