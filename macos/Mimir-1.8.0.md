@@ -7,6 +7,7 @@ This relatively small release includes some new sharing features, UI improvement
 - Added share options to share an episode or a podcast from context menus
 - Added a share button to episode detail rows
 - Added a "more" button to the main player that has several context menu actions: Play Next Episode, Return Episode to Queue, Sharing, and Playback Preferences. This replaces the previous "gear" button that opened playback preferences.
+- Added some user reviews to the purchases window. Thanks for all the stars!
 - Improved performance scrolling and resizing the window when in the podcast detail view
 - Improved database fetch performance when fetching a lot of episodes in the podcast detail
 - Fixed an issue with the "Return to queue" button in the playlist sidebar not being properly hidden when needed

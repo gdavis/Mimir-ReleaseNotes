@@ -1,3 +1,4 @@
 New in Build 156
 ----------------
+- Added some user reviews to the purchases window. Thanks for all the stars!
 - Fixed a memory leak that could lead to a crash from download operations
