@@ -1,0 +1,5 @@
+New in build 133
+----------------
+- Fixed a crash that could occur when deleting a podcast
+- Fixed a crash that could occur when opening shared links
+- Fixed a memory leak that could lead to a crash from download operations
