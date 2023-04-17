@@ -8,3 +8,4 @@ This relatively small release includes some new sharing features, UI improvement
 - Added a "more" button to the Now Playing view's navigation bar with several actions: Share, Return Episode to Queue, Clear Now Playing
 - Fixed an issue where the last publish date for a podcast could show "53 years ago"
 - Fixed issue with Now Playing view not updating when clearing the current episode
+- Fixed a memory leak that could lead to a crash from download operations

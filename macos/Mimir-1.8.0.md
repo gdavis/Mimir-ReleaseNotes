@@ -10,3 +10,4 @@ This relatively small release includes some new sharing features, UI improvement
 - Improved performance scrolling and resizing the window when in the podcast detail view
 - Improved database fetch performance when fetching a lot of episodes in the podcast detail
 - Fixed an issue with the "Return to queue" button in the playlist sidebar not being properly hidden when needed
+- Fixed a memory leak that could lead to a crash from download operations
