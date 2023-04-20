@@ -1,0 +1,7 @@
+New in Build 157
+----------------
+- Updated the podcast detail episode rows so the "expand dots" are always visible and now on the trailing side of the view
+- Updated the button icon for the "more" menu in the main player controls
+- Fixed the incorrect text color being used when in light mode on IAP view
+- Fixed an issue where downloads made from menus might not trigger the UI to show download progress in other locations
+- Fixed a text color issue for the library sidebar that would make the text hard to read for a selected row when focus is on another view

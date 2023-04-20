@@ -1,0 +1,4 @@
+New in build 134
+----------------
+- Fixed an issue with the download state for episodes not updating properly
+- Fixed an issue where downloads made from menus might not trigger the UI to show download progress in other locations
