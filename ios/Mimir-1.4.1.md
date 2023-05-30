@@ -7,4 +7,4 @@ This update includes a few fixes to some of the most common crashes and bugs in 
 - Fixes a crash that could occur when downloading an episode
 - Fixes a crash that could occur when searching for episodes in the podcast detail
 - Fixed the copyright date on the launch screen
-- Fixed an issue where filtering downloaded episodes would show episodes previously downloaded by have since been deleted
+- Fixed an issue where filtering downloaded episodes would show episodes previously downloaded but have since been deleted
