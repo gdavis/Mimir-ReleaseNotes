@@ -1,4 +1,4 @@
-# New Year Fixes
+# New Year Minor Updates
 *Release 1.4.3 – January 2023*
 
 - Added a CarPlay setting to only show unplayed episodes in the Podcast Library

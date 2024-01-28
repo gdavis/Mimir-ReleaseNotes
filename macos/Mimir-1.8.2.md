@@ -1,7 +1,6 @@
-# New Year Fixes
+# New Year Minor Updates
 *Release 1.8.2 – January 2024*
 
-- Fixed a bug that could delete a previously downloaded file when loading the player
 - Fixed an issue with button text being cut off in the purchase buttons
 - Fixed an issue where the media player downloading a partial file when the episode had a playback position
 - Fixed an issue clearing episode file references. An alert will show when errors such as file permissions occur
