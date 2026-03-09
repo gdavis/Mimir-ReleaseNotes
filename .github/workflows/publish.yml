@@ -18,7 +18,7 @@ jobs:
           port: ${{ secrets.SFTP_PORT }}
           username: ${{ secrets.SFTP_USERNAME }}
           password: ${{ secrets.SFTP_PASSWORD }}
-          protocol: sftp
+          protocol: ftps
           server-dir: ${{ secrets.SFTP_REMOTE_PATH }}
           dry-run: true
           exclude: |
