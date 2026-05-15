@@ -1,5 +1,5 @@
 # Improved Sync and Audio Playback
-*Release 1.7.0 – May 2026*
+*Release 1.10.0 – May 2026*
 
 ## New Features
 - **New cloud sync engine** — Mimir now uses a completely rebuilt cloud synchronization system for faster, more reliable syncing of your podcasts, playlists, playback progress, and settings across all your devices.
