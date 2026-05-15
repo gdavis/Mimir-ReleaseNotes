@@ -7,5 +7,5 @@
 ## Improvements
 - **Now Playing Scrubber** — The progress slider now updates the timestamps during drag and is smoother when seeking to a new position. 
 
-## Fixes
+## Bug Fixes
 - Fixed a crash that could occur when playing some audio files
