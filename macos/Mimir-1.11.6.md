@@ -1,0 +1,4 @@
+# Sonoma Crash Fix #2
+*Release 1.11.6 – June 2026*
+
+- Fixed an issue where the audio player could stop playback after finishing downloading the file
